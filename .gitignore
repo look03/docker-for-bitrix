@@ -1,0 +1,5 @@
+.idea/
+
+/services/database/backup/
+/.env
+!.gitkeep
