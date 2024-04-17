@@ -33,8 +33,6 @@ init-folders:
 	chown -R $(USER):$(USER) ./src/ \
 	&& cd ./src \
 	&& mkdir api || true \
-	&& mkdir app || true \
-	&& mkdir docs || true \
 	&& chown -R $(USER):$(USER) api/
 
 
