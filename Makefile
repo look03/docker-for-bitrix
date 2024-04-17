@@ -22,7 +22,7 @@ ps:
 	@$(DOCKER_BIN) ps -a
 
 ## Инициализирует проект
-init: copy-env init-folders up
+init: copy-env init-folders up database-create
 
 ## Копирование env
 copy-env:

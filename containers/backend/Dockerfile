@@ -49,7 +49,9 @@ RUN a2enmod remoteip && \
     echo "ServerName 127.0.0.1" >> /etc/apache2/apache2.conf && \
     usermod -u 1000 www-data && \
     touch /var/log/bitrix.log && \
-    chown www-data:1000 /var/log/bitrix.log
+    chown www-data:1000 /var/log/bitrix.log && \
+    chown www-data:1000 /tmp && \
+    chmod 777 /tmp
 
 WORKDIR /var/www/html/
 
