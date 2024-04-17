@@ -17,3 +17,5 @@ $ sudo sysctl -w vm.max_map_count=262144
 ```shell
 $ make init
 ```
+
+Установочник для bitrix кладем в src/api
